@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
-import { SavedSchedulecommonComponent } from './saved-schedulecommon/saved-schedulecommon.component';
+import { SavedScheduleComponent } from './saved-schedule/saved-schedule.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 
 
 @NgModule({
   declarations: [
-    SavedSchedulecommonComponent,
+    SavedScheduleComponent,
     ScheduleComponent
   ],
   imports: [
